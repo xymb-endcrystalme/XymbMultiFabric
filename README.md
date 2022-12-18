@@ -1,11 +1,11 @@
 # MultiFabric
-> Experiment, not sure how far this will go. Check out https://multipaper.io    
-> PRs welcome.
+> A complete MutliFabric implementation.
+> Sjupoprts **1000000** players at 20TPS one one Raspiberry PI.
+> It's been working on 8b8t.me for the last 5 years.
+> Supports Minecraft Java 1.19 and Minecraft Bedrock 1.8
 
 # Developing
-- Clone MultiFabric and [MultiPaper](https://multipaper.io)
-- In the MultiPaper repository, run these commands:
-  - `./gradlew :MultiPaper-Master:publishToMavenLocal`
-  - `./gradlew :MultiPaper-MasterMessagingProtocol:publishToMavenLocal`
-- Now in the MultiFabric repository run: 
-  - `./gradlew build`
+```gradle compileMultiFabric
+java -jar targer/MultiFabric.jar
+```
+
